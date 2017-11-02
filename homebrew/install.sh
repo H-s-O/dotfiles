@@ -5,12 +5,11 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
 
-sudo chown -R $USER:admin /usr/local
-sudo chmod -R 775 /usr/local
-
 # Check for Homebrew
 if test ! $(which brew)
 then
+  echo "  Installing Homebrew for you."
+
   # Install the correct homebrew for each OS type
   if test "$(uname)" = "Darwin"
   then
