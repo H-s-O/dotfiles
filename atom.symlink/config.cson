@@ -69,7 +69,7 @@
       ]
   docblockr: {}
   editor:
-    fontSize: 12
+    fontSize: 13
     invisibles: {}
     nonWordCharacters: "./\\\\()\\\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
     showIndentGuide: true
@@ -112,8 +112,11 @@
       "public/js"
       "dist/"
       "vendor/"
+      "storage/"
+      "lib/"
     ]
     sortAscending: false
+    statusBarIndicator: true
   "tree-view":
     hideIgnoredNames: true
   welcome:
