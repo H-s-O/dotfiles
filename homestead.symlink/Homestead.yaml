@@ -37,9 +37,12 @@ sites:
     - map: machine-a-sous.flklr.ca
       alias: "*.machine-a-sous"
       to: /home/vagrant/Code/machine-a-sous.flklr.ca/public
-    - map: pigeon.onf.ca
-      alias: "*.pigeon.onf.ca"
+    - map: pigeonvoyageur
+      alias: "*.pigeonvoyageur"
       to: /home/vagrant/Code/pigeon.onf.ca/public
+    - map: alpha-omega.artv.ca
+      alias: "*.alpha-omega.artv.ca"
+      to: /home/vagrant/Code/alpha-omega.artv.ca/public
 
 databases:
     - manivelle
@@ -50,6 +53,7 @@ databases:
     - imstillyourchild
     - machine-a-sous
     - pigeon
+    - alpha-omega
 
 # blackfire:
 #     - id: foo
